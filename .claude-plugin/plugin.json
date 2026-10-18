@@ -1,0 +1,10 @@
+{
+  "name": "aso",
+  "version": "0.1.0",
+  "description": "App Store Optimization agent: keyword research, metadata drafting and validation, App Store Connect updates (approval gated), screenshots, review replies, and rank tracking with pluggable data providers.",
+  "author": { "name": "reyco1", "url": "https://github.com/reyco1" },
+  "homepage": "https://github.com/reyco1/claude-aso-plugin",
+  "repository": "https://github.com/reyco1/claude-aso-plugin",
+  "license": "MIT",
+  "keywords": ["aso", "app-store", "app-store-connect", "ios", "keywords", "mcp"]
+}

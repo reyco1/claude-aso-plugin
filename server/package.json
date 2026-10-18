@@ -1,0 +1,20 @@
+{
+  "name": "claude-aso-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "MCP server for the claude-aso-plugin: App Store Connect + pluggable keyword data",
+  "scripts": {
+    "build": "esbuild src/index.js --bundle --platform=node --format=esm --target=node18 --outfile=dist/server.mjs --banner:js=\"import{createRequire}from'module';const require=createRequire(import.meta.url);\"",
+    "start": "node dist/server.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}

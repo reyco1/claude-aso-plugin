@@ -1,0 +1,12 @@
+{
+  "name": "reyco1",
+  "owner": { "name": "reyco1", "url": "https://github.com/reyco1" },
+  "plugins": [
+    {
+      "name": "aso",
+      "source": "./",
+      "description": "App Store Optimization agent with App Store Connect integration and pluggable keyword data.",
+      "version": "0.1.0"
+    }
+  ]
+}
