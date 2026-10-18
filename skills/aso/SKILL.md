@@ -80,7 +80,7 @@ Placement priority: **name > subtitle > keyword field**. Details in `references/
 5. Remind the user to submit the version and when to check results (2 to 4 weeks after it goes live).
 
 ### 5. Screenshots
-Rules in `references/playbook.md#screenshots`. First screenshot = the most distinctive, visual feature. Show real UI. Test, don't assume: polished designer screenshots can lose to authentic ones. Set up Product Page Optimization tests in App Store Connect (read existing ones with `asc_get` on `/v1/apps/{id}/appStoreVersionExperimentsV2`); creating tests through the API is on the roadmap, so guide the user through the UI.
+Rules in `references/playbook.md#screenshots`. **Before any `asc_upload_screenshot`, check each image against the rejection rules there (real app UI, 4+ imagery, rights, no prices, no other platforms) and the size specs, and tell the user the result.** First screenshot = the most distinctive, visual feature. Show real UI. Test, don't assume: polished designer screenshots can lose to authentic ones. Set up Product Page Optimization tests in App Store Connect (read existing ones with `asc_get` on `/v1/apps/{id}/appStoreVersionExperimentsV2`); creating tests through the API is on the roadmap, so guide the user through the UI.
 
 ### 6. Reviews (`/aso:reviews`)
 1. `asc_list_reviews`, filter to ones without a response.
